@@ -47,4 +47,15 @@ public class Lista<T> {
             }
         }
     }
+
+    public int busca(T objeto){
+        for (int i=0; i<this.quantidadeObjetos-1; i++){
+            if(lista[i].equals(objeto)){
+                System.out.println("Objeto encontrado na posição "+i);
+                return i;
+            }
+        }
+        System.out.println("Objeto não encontrado na lista");
+        return -1;
+    }
 }
