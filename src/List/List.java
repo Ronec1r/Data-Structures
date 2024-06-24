@@ -1,6 +1,6 @@
 package List;
 
-public class Lista<T> {
+public class List<T> {
     private Object[] lista = new Object[100];
     private int quantidadeObjetos =0;
 

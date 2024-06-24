@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d368ec42-38e4-4307-8875-9255e4646515" name="Changes" comment="Initial Commit&#10;&#10;Implementação da estrutura de dados lista, utilizando Array">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListaEncadeada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Nodo.java" afterDir="false" />
+    <list default="true" id="d368ec42-38e4-4307-8875-9255e4646515" name="Changes" comment="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/List/MainLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/MainLista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2iFRf2eisBNJCBEBGc51pT0RKvi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainLinkedList.executor": "Run",
     "Application.MainLista.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,12 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719099994339</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada">
+      <option name="closed" value="true" />
+      <created>1719101925444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719101925444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit&#10;&#10;Implementação da estrutura de dados lista, utilizando Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit&#10;&#10;Implementação da estrutura de dados lista, utilizando Array" />
+    <MESSAGE value="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,4 @@
 package List;
-import java.util.ArrayList;
 
 public class MainLista {
     public static void main(String[] args) {
@@ -9,7 +8,7 @@ public class MainLista {
         Aluno aluno4 = new Aluno("Larissa", "larissa@gmail.com");
         Aluno aluno5 = new Aluno("Beatriz", "beatriz@gmail.com");
 
-        Lista<Aluno> lista = new Lista<Aluno>();
+        List<Aluno> lista = new List<Aluno>();
 
         lista.adiciona(aluno1);
         lista.adiciona(aluno2);
