@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d368ec42-38e4-4307-8875-9255e4646515" name="Changes" comment="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada">
+    <list default="true" id="d368ec42-38e4-4307-8875-9255e4646515" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MainLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/MainLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/MainLista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MainLinkedList.executor": "Run",
-    "Application.MainLista.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ronec/Java/Data structures/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainLista.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ronec/Java/Data structures/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,13 +81,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719101925444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementação dos métodos adicionaNoInicio, adicionaNoFinal, pega, busca e tamanho da class LinkedList.&#10;&#10;Implementação da class MainLinkedList&#10;&#10;Mudança no nome da class Lista e ListaEncadeada para List e LinkedList, respectivamente">
+      <option name="closed" value="true" />
+      <created>1719190825757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719190825757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit&#10;&#10;Implementação da estrutura de dados lista, utilizando Array" />
     <MESSAGE value="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do método de busca na estrutura de lista&#10;&#10;Inicio da implementação da estrutura de lista encadeada" />
+    <MESSAGE value="Implementação dos métodos adicionaNoInicio, adicionaNoFinal, pega, busca e tamanho da class LinkedList.&#10;&#10;Implementação da class MainLinkedList&#10;&#10;Mudança no nome da class Lista e ListaEncadeada para List e LinkedList, respectivamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação dos métodos adicionaNoInicio, adicionaNoFinal, pega, busca e tamanho da class LinkedList.&#10;&#10;Implementação da class MainLinkedList&#10;&#10;Mudança no nome da class Lista e ListaEncadeada para List e LinkedList, respectivamente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

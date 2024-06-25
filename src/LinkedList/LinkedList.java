@@ -11,7 +11,14 @@ public class LinkedList<T> {
     }
 
     public void adicionaNaPosicao(T objeto, int posicao){
-
+        if(posicao==0){
+            this.adicionaNoInicio(objeto);
+        }else{
+            Node nodoAnterior = (Node) pega(posicao-1);
+            Node novoNodo = new Node(nodoAnterior.getProximoNodo(), objeto);
+            nodoAnterior.setProximoNodo(novoNodo);
+        }
+        this.quantidadeObjetos+=1;
     }
 
     public void adicionaNoFinal(T objeto){
@@ -29,8 +36,15 @@ public class LinkedList<T> {
         return (T) nodo;
     }
 
-    public void remove(){
-
+    public void remove(int posicao){
+        Node nodo = (Node) pega(posicao-1);
+        Node nodo2 = (Node) pega(posicao+1);
+        if(posicao==0){
+            this.primeiroElemento = nodo2;
+        }else{
+            nodo.setProximoNodo(nodo2);
+        }
+        this.quantidadeObjetos-=1;
     }
 
     public int tamanho(){
@@ -47,5 +61,16 @@ public class LinkedList<T> {
             }
         }
         return -1;
+    }
+
+    public void mostraLista(){
+        Node nodo = this.primeiroElemento;
+        for (int i=0; i<this.quantidadeObjetos; i++){
+            System.out.println(nodo);
+            if(nodo.getProximoNodo()==null){
+                break;
+            }
+            nodo = nodo.getProximoNodo();
+        }
     }
 }
